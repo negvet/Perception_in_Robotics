@@ -1,0 +1,10 @@
+1. Once the noise (does not matter which one: motion or observation) decrease the the accuracy and precision of the filters increase.
+
+2. If the number of particels decrease - the PF becomes more certain about where the robot is located (covariance is low), but anfortunately the error becoming more.
+
+3. 
+if the noise is underestimated - filter is more certain but also more wrong (become biased from true easily)
+if the noise is overestimated - filter is less certain but more close to true (less biased - more stable)
+
+Uniform outcome - probably it is better to slightly overestimate noise than underestimate
+
